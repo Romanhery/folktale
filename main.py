@@ -28,7 +28,7 @@ def renderGuy(index):
 
 # this uses the render guy and takes in input
 def movement(): 
-    movement = input("Character Movement Left (A) or Right (D) or Forward (W): ")
+    movement = input("Character Movement Left (A) or Right (D) or Center (S): ")
     if movement == "A":
         print("Left")
         index = 0
